@@ -1,10 +1,6 @@
-#include "types.h"
-#include "stat.h"
-#include "user.h"
+#include <stdio.h>
 
-int main()
-{
-char str[] = "Hello world";
-printf(1, "%s\n", str);
-exit();
+int main() {
+    printf("Hello world\n");
+    return 0;
 }
